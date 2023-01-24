@@ -1,6 +1,21 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,java,windows,macos,django,venv,vue,node,obsidian,pycharm,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,java,windows,macos,django,venv,vue,node,obsidian,pycharm,visualstudiocode
 
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
 # dependencies
 /node_modules
 /.pnp
