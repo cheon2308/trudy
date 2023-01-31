@@ -6,6 +6,7 @@
 
 # # 프로젝트 진행하며 오늘 한 일, 오늘 배운 점 기록 README
 
+
 ---
 
 # 기획 단계
@@ -444,3 +445,57 @@
 - TypeScript 매우 엄격하지만, 그만큼 이슈를 발생시킬 확률을 줄여주기 때문에 맞춰나가는 것이 중요한 것 같다.
 - React와 Vue의 차이, JS와 TS의 차이를 사용하며 느끼지만 항상 **내가 사용하는 이유**를 리마인드 하면서 코딩하자!!
 - 내일부터는 페이지마다 데이터 요청 후 레이아웃에 맞춰 보여주는 것 구현 해야되는데 화이팅!
+
+---
+
+## 01.30
+
+#### 주 내용
+
+- 구글 Map 화면에 띄우기
+	- Google Maps API를 받아와서 사용
+	- google-maps-react 사용하려 했으나 React 18.2 버전과 호환성 문제로 다른 라이브러리 찾기
+	- React에는 많은 라이브러리가 있는데 그 중에 @react-google-maps도 존재
+
+```typescript
+import { GoogleMap, LoadScript } from "@react-google-maps/api";
+```
+
+- TypeScript와 Redux 공부
+- Tailwind 공부
+
+
+
+#### 깨달은 점
+
+- Stack Overflow와 Googling은 역시 영어로 해야 잘 나오는 것 같다..
+- 영어를 잘할 필요는 없지만 적어도 내가 필요한 정보를 찾고, 영어를 해석할 정도는 공부를 꾸준히 해야 될 것 같다.
+- API를 Library로 사용해보니 편하였지만, Flow를 알기 위해 Library를 사용하지 않아보는 것도 중요한 것 같다.
+
+
+---
+
+## 01.31
+
+#### 주 내용
+
+- 구글 MAP 영문으로 받기 위해 language 옵션을 찾았으나 안 보여서 구글링으로 해결
+- GoogleMap Component가 아닌 LoadScript에 region과 language 옵션이 들어있는 것을 확인 후 변경
+	- 한글과 영문 같이 존재
+
+``` typescript
+LoadScript googleMapsApiKey="API KEY" region="US" language="en">
+```
+
+- 한국관광공사 api 받아서 화면에 출력
+- Server에 올라가있던 js-trudy 삭제 후 ts-trudy로 교체
+- pull 받기 위해 기존 파일 백업 후 Merge 진행하였음
+
+
+#### 깨달은 점
+
+- 매번 깨닫는 점 -> Back, Front간 뿐만 아니라 Front 끼리도 지속적인 소통 필요
+- 세세한 컨벤션을 당장에 맞추지 않아도 되는 것 같지만 최대한 맞추기 위해 노력하자.
+- 구글링하며 왜 실행이 안 되는지 또는 실행이 되는지를 잘 알고 꾸준히 학습하자
+- api 받으며 type 잘 확인하고 받아주기
+- React 버전 잘 확인하고, 라이브러리도 버전 잘 확인해야 문제 안생긴다는점 다시 깨달음!
