@@ -1,0 +1,27 @@
+.trudy-map {
+  /* width: auto; */
+  /* height: 920px; */
+  height: 94vh;
+}
+
+#map-toggle {
+  color: lightgoldenrodyellow;
+  font-weight: 400;
+  background: rgb(1, 148, 1);
+  margin-top: 60px;
+  margin-right: 60px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#map-toggle:hover {
+  color: lightgoldenrodyellow;
+  font-weight: 500;
+  background: rgb(17, 184, 17);
+  margin-top: 60px;
+  margin-right: 60px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
