@@ -49,6 +49,19 @@
 
 ✔️ **결과**
 
+**- DB 설계, ERD 작성**
+
+- ERD
+    
+    [![2](https://user-images.githubusercontent.com/53362965/251973925-83721ab6-f849-489e-b8e1-e29d9d3c5596.png)](https://user-images.githubusercontent.com/53362965/251973925-83721ab6-f849-489e-b8e1-e29d9d3c5596.png)
+    
+
+**- 아키텍처 설계**
+
+- 아키텍처 구성도
+    
+    [![3](https://user-images.githubusercontent.com/53362965/251973929-2f858746-95e5-4f01-b7f8-ca2aea0f2a84.jpeg)](https://user-images.githubusercontent.com/53362965/251973929-2f858746-95e5-4f01-b7f8-ca2aea0f2a84.jpeg)
+
 **[로그인]**
 ![4](https://github.com/sungwookoo/Trudy/assets/53362965/54301c72-5a5a-4efd-91e1-6a10b5f8a8b4)
 
